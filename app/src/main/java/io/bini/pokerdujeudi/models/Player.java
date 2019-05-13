@@ -1,4 +1,4 @@
-package io.bini.pokerdujeudi;
+package io.bini.pokerdujeudi.models;
 
 import org.json.JSONArray;
 import org.json.JSONException;

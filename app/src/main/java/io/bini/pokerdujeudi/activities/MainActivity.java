@@ -1,17 +1,23 @@
-package io.bini.pokerdujeudi;
+package io.bini.pokerdujeudi.activities;
 
+import android.os.Bundle;
+import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import android.view.View;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import io.bini.pokerdujeudi.R;
+import io.bini.pokerdujeudi.fragments.PlayersFragment;
+import io.bini.pokerdujeudi.models.MenuEntry;
+import io.bini.pokerdujeudi.viewadapters.MenuViewAdapter;
 
 public class MainActivity extends AppCompatActivity {
     private RecyclerView menuView;

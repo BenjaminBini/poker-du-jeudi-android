@@ -1,4 +1,4 @@
-package io.bini.pokerdujeudi;
+package io.bini.pokerdujeudi.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,6 +13,11 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
+
+import io.bini.pokerdujeudi.R;
+import io.bini.pokerdujeudi.models.Player;
+import io.bini.pokerdujeudi.viewadapters.PlayersViewAdapter;
+import io.bini.pokerdujeudi.viewmodels.PlayerListViewModel;
 
 public class PlayersFragment extends DialogFragment {
 

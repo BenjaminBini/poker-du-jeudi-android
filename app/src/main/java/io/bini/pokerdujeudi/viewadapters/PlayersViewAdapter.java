@@ -1,4 +1,4 @@
-package io.bini.pokerdujeudi;
+package io.bini.pokerdujeudi.viewadapters;
 
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
@@ -8,7 +8,10 @@ import android.widget.TextView;
 
 import java.util.List;
 
-class PlayersViewAdapter extends RecyclerView.Adapter<PlayersViewAdapter.PlayersViewHolder> {
+import io.bini.pokerdujeudi.R;
+import io.bini.pokerdujeudi.models.Player;
+
+public class PlayersViewAdapter extends RecyclerView.Adapter<PlayersViewAdapter.PlayersViewHolder> {
     private List<Player> players;
 
     public static class PlayersViewHolder extends RecyclerView.ViewHolder {

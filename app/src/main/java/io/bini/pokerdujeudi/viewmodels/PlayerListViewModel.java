@@ -1,4 +1,4 @@
-package io.bini.pokerdujeudi;
+package io.bini.pokerdujeudi.viewmodels;
 
 
 import androidx.lifecycle.LiveData;
@@ -6,6 +6,8 @@ import androidx.lifecycle.ViewModel;
 
 import java.util.List;
 
+import io.bini.pokerdujeudi.models.Player;
+import io.bini.pokerdujeudi.repositories.PlayerRepository;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.val;

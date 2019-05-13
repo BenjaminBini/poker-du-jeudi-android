@@ -1,7 +1,8 @@
-package io.bini.pokerdujeudi;
+package io.bini.pokerdujeudi.services;
 
 import java.util.List;
 
+import io.bini.pokerdujeudi.models.Player;
 import retrofit2.Call;
 import retrofit2.http.GET;
 

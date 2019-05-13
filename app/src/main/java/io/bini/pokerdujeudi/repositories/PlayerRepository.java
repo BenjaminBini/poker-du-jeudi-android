@@ -1,12 +1,12 @@
-package io.bini.pokerdujeudi;
-
-import android.webkit.WebSettings;
+package io.bini.pokerdujeudi.repositories;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
 import java.util.List;
 
+import io.bini.pokerdujeudi.models.Player;
+import io.bini.pokerdujeudi.services.Webservice;
 import lombok.val;
 import retrofit2.Call;
 import retrofit2.Callback;
